@@ -16,3 +16,8 @@ use App\Http\Controllers\GenericController;
 
 
 Route::get('/', [GenericController::class, 'lending']);
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
