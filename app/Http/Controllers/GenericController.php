@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class GenericController extends Controller
 {
     //
-    public function lending(){
+    public function lending(Request $r){
        return view ('lending');
     }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="pt" class="no-js">
 <head>
     @include('base.include-seo')
 
@@ -58,8 +58,8 @@
                                     <div class="feature-icon">
 										<img src="{{asset("template/dist/images/feature-icon-01.svg")}}" alt="Feature 01">
                                     </div>
-                                    <h4 class="feature-title mt-24">Be Productive</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
+                                    <h4 class="feature-title mt-24">Aprenda Laravel</h4>
+                                    <p class="text-sm mb-0">Laravel is a web application framework with expressive, elegant syntax. A web framework provides a structure and starting point for creating your application.</p>
                                 </div>
                             </div>
 							<div class="feature text-center is-revealing">
@@ -67,8 +67,8 @@
                                     <div class="feature-icon">
 										<img src="{{asset("template/dist/images/feature-icon-02.svg")}}" alt="Feature 02">
                                     </div>
-                                    <h4 class="feature-title mt-24">Be Productive</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
+                                    <h4 class="feature-title mt-24">Aprenda Laravel</h4>
+                                    <p class="text-sm mb-0">Laravel is a web application framework with expressive, elegant syntax. A web framework provides a structure and starting point for creating your application</p>
                                 </div>
                             </div>
                             <div class="feature text-center is-revealing">
@@ -76,8 +76,8 @@
                                     <div class="feature-icon">
 										<img src="{{asset("template/dist/images/feature-icon-03.svg")}}" alt="Feature 03">
                                     </div>
-                                    <h4 class="feature-title mt-24">Be Productive</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
+                                    <h4 class="feature-title mt-24">Aprenda Laravel</h4>
+                                    <p class="text-sm mb-0">Laravel is a web application framework with expressive, elegant syntax. A web framework provides a structure and starting point for creating your application</p>
                                 </div>
                             </div>
                             <div class="feature text-center is-revealing">
@@ -85,8 +85,8 @@
                                     <div class="feature-icon">
 										<img src="{{asset("template/dist/images/feature-icon-04.svg")}}" alt="Feature 04">
                                     </div>
-                                    <h4 class="feature-title mt-24">Be Productive</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
+                                    <h4 class="feature-title mt-24">Aprenda Laravel</h4>
+                                    <p class="text-sm mb-0">Laravel is a web application framework with expressive, elegant syntax. A web framework provides a structure and starting point for creating your application</p>
                                 </div>
                             </div>
 							<div class="feature text-center is-revealing">
@@ -94,8 +94,8 @@
                                     <div class="feature-icon">
 										<img src="{{asset("template/dist/images/feature-icon-05.svg")}}" alt="Feature 05">
                                     </div>
-                                    <h4 class="feature-title mt-24">Be Productive</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
+                                    <h4 class="feature-title mt-24">Aprenda Laravel</h4>
+                                    <p class="text-sm mb-0">Laravel is a web application framework with expressive, elegant syntax. A web framework provides a structure and starting point for creating your application</p>
                                 </div>
                             </div>
                             <div class="feature text-center is-revealing">
@@ -103,8 +103,8 @@
                                     <div class="feature-icon">
 										<img src="{{asset("template/dist/images/feature-icon-06.svg")}}" alt="Feature 06">
                                     </div>
-                                    <h4 class="feature-title mt-24">Be Productive</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
+                                    <h4 class="feature-title mt-24">Aprenda Laravel</h4>
+                                    <p class="text-sm mb-0">Laravel is a web application framework with expressive, elegant syntax. A web framework provides a structure and starting point for creating your application</p>
                                 </div>
                             </div>
                         </div>
@@ -203,16 +203,16 @@
                     </div>
                     <ul class="footer-links list-reset">
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#">Contacto</a>
                         </li>
                         <li>
-                            <a href="#">About us</a>
+                            <a href="#">Sobre Nos</a>
                         </li>
                         <li>
-                            <a href="#">FAQ's</a>
+                            <a href="admin">Entrar</a>
                         </li>
                         <li>
-                            <a href="#">Support</a>
+                            <a href="#">inicio</a>
                         </li>
                     </ul>
                     <ul class="footer-social-links list-reset">
