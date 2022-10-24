@@ -28,7 +28,12 @@
 						<div class="hero-copy">
 	                        <h1 class="hero-title mt-0">Bem vindo ao servidor eMazaGame</h1>
 	                        <p class="hero-paragraph">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-	                        <div class="hero-cta"><a class="button button-primary" href="/admin">Entrar</a><a class="button" href="https://laravel.com/docs/9.x/controllers#main-content" target=".blank">Saber Mais</a> </div>
+                            @if(auth()->check())
+	                        <div class="hero-cta"><a class="button button-primary" href="/admin/profile">Entrar</a>
+                            @else
+                            <div class="hero-cta"><a class="button button-primary" href="/admin">Entrar</a>
+                            @endif
+                                <a class="button" href="https://laravel.com/docs/9.x/controllers#main-content" target=".blank">Saber Mais</a> </div>
 						</div>
 						<div class="hero-figure anime-element">
 							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
